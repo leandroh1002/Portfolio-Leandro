@@ -1,12 +1,14 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Presentacion from '../components/Presentacion.astro'
+import Age from '../components/Age.astro'
 ---
 
 <Layout title="Leandro Herrera | Frontend Dev.">
-	<main>
+	<main class="grid grid-cols-3 gap-2 md:grid-cols-4 md:gap-4 my-5 container mx-auto xl:px-20">
 		<h1>Portfolio</h1>
-		<Presentacion></Presentacion>
+		<Presentacion/>
+		<Age/>
 	</main>
 </Layout>
 
